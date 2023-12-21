@@ -1,0 +1,50 @@
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px
+}
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+div .card {
+    text-align: center;
+    background-color: rgb(128, 241, 128);
+}
+
+div .cardy {
+    text-align: center;
+    background-color: rgb(241, 241, 143);
+}
+
+div .cardr {
+    text-align: center;
+    background-color: rgb(241, 152, 152);
+}
+
+
+h6 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+button {
+    width: 100px;
+  height: 80px;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: black;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: lightblue;
+  padding: 5px;
+}

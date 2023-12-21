@@ -1,0 +1,161 @@
+#root {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+margin-top: 0px;
+margin-bottom: 0px;
+font-size: 20px;
+margin-top: 6px;
+margin-bottom: 6px;
+}
+
+h4 {
+  font-weight: bolder;
+}
+
+h6 {
+  margin-bottom: 30px;
+}
+
+
+
+.numero {
+  height: 300px;
+  width: auto;
+  background-color: rgb(3, 3, 63);
+  color: black;
+}
+
+.controles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 100px;
+  height: 80px;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: black;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 8px;
+  cursor: pointer;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: rgb(186, 186, 235);
+  color: black;
+  border-bottom: solid 3px darkblue;
+  font-weight: bolder;
+}
+
+/*
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    min-width: 150px;
+    min-height: 60px;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover {
+   background-color: rgb(186, 186, 235);
+   color: black;
+   border-bottom: solid 3px darkblue;
+   font-weight: bolder;
+   
+}
+*/
+
+.tabla {
+  margin-top: 60px;
+}
+
+.numero {
+  margin-top: 20px;
+  min-width: 100px;
+  height: 150px;
+  font-size: 120px;
+  padding: 25px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 8px solid white;
+  margin-bottom: 15px;
+  border-radius: 30px;
+}
+
+.display {
+  display: flex-start;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.entrar-dia {
+  width: 200px;
+  height: 100px;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: black;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+
+
+.reset-app {
+  width: 100px;
+  height: 80px;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: black;
+  border: 2px solid white;
+  border-radius: 30px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: rgb(192, 122, 122);
+    
+}
+
+
+.reset-conteo {
+  width: 200px;
+  height: 100px;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  color: black;
+  border: 2px solid white;
+  border-radius: 30px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: lightblue;
+
+}

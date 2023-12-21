@@ -1,0 +1,36 @@
+div .reset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+div .okno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button .eliminardatos {
+    width: auto;
+    height: 80px;
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 8px;
+    cursor: pointer;
+    background-color: lightblue;
+    padding: 5px;
+  }
+  
+  button.eliminar:hover {
+    background-color: rgb(186, 186, 235);
+    color: black;
+    border-bottom: solid 3px darkblue;
+    font-weight: bolder;
+  }
+
+  
