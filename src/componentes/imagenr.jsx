@@ -41,7 +41,8 @@ import Pomelo from "../img/pomelo.jpg"
 import Naranja from "../img/naranja.jpg"
 import Pera from "../img/pera.jpg"
 import Cebolla from "../img/cebolla.jpg"
-
+import Melon from "../img/melon.jpg"
+import Sandia from "../img/sandia.jpg"
 
 
 
@@ -149,6 +150,10 @@ const Imagenr = ({setModalUno}) => {
       <h6>Frutillas 7.7g</h6>
     </div>
     <div className='card'>
+      <img src={Sandia} alt="porción 100g de sandía" /> 
+      <h6>Sandía 8g</h6>
+    </div>
+    <div className='card'>
       <img  src={Arandanos} alt="porción 100g de arándanos" /> 
       <h6>Arándanos 8.2g</h6>
     </div> 
@@ -156,6 +161,10 @@ const Imagenr = ({setModalUno}) => {
       <img src={Palta} alt="porción de 100g de palta" /> 
       <h6>Palta 8.52g</h6>
     </div>
+    <div className='cardy'>
+      <img src={Melon} alt="porción 100 gramos de melón" /> 
+      <h6>Melón 9g</h6>
+    </div> 
     <div className='cardy'>
       <img src={Pomelo} alt="porción 100 gramos de pomelo" /> 
       <h6>Pomelo 9g</h6>
