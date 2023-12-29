@@ -129,10 +129,6 @@ const Imagenr = ({setModalUno}) => {
       <img src={Yogurn} alt="porción 100g yogur natural" /> 
       <h6>Yogur natural 5g</h6>
     </div> 
-<div className='card'>
-      <img src={Arandanos} alt="porción 100g de arándanos" /> 
-      <h6>Arándanos 5.5g</h6>
-    </div> 
     <div className='card'>
       <img src={Berenjena} alt="porción 100g de berenjenas" /> 
       <h6>Berenjenas 5.7g</h6>
