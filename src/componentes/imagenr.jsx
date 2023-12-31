@@ -43,7 +43,8 @@ import Pera from "../img/pera.jpg"
 import Cebolla from "../img/cebolla.jpg"
 import Melon from "../img/melon.jpg"
 import Sandia from "../img/sandia.jpg"
-
+import Minions from "../img/minions.jpg"
+import Lentejas from "../img/lentejas.jpg"
 
 
 
@@ -210,6 +211,10 @@ const Imagenr = ({setModalUno}) => {
       <h6>Banana 23.2g</h6>
     </div>
     <div className='cardr'>
+      <img src={Lentejas} alt="porción 100 gramos de lentejas" /> 
+      <h6>Lentejas 25g</h6>
+    </div> 
+    <div className='cardr'>
       <img src={Fideos} alt="porción 100 gramos de fideos" /> 
       <h6>Pasta 28g</h6>
     </div> 
@@ -221,9 +226,13 @@ const Imagenr = ({setModalUno}) => {
       <img src={ChocNegro} alt="porción 100 gramos de chocolate negro 50%" /> 
       <h6>Chocolate 50% 45g </h6>
     </div> 
+    <div className='cardr'>
+      <img src={Minions} alt="porción 100 gramos de pan francés" /> 
+      <h6>Pan francés 50g</h6>
+    </div>
      <div className='cardr'>
       <img src={Pan} alt="porción 100 gramos de pan" /> 
-      <h6>Pan (todos) 50g</h6>
+      <h6>Pan lactal 50g</h6>
     </div>
     <div className='cardr'>
       <img src={Muffin} alt="porción 100g de Muffin Chocolate" /> 

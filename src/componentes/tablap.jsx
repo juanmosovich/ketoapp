@@ -210,9 +210,13 @@ const Tablap = () => {
             <td className='rece'>20 g</td>
         </tr>
         <tr>
-               <td className='rece'>Banana</td>
-              <td className='rece'>23.2 g</td>
-            </tr>
+            <td className='rece'>Banana</td>
+            <td className='rece'>23.2 g</td>
+         </tr>
+         <tr>
+            <td className='rece'>Lentejas</td>
+            <td className='rece'>25 g</td>
+         </tr> 
         <tr>
                <td className='rece'>Fideos</td>
                <td className='rece'>28 g</td>
@@ -226,7 +230,7 @@ const Tablap = () => {
                <td className='rece'>45 g</td>
          </tr> 
             <tr>
-               <td className='rece'>Pan</td>
+               <td className='rece'>Pan (todos)</td>
                <td className='rece'>55 g</td>
             </tr> 
            <tr>
