@@ -33,11 +33,15 @@ const Tablap = () => {
             <td className='rec'>Manteca</td>
             <td className='rec'>0 g</td>
         </tr>
-      <tr>
-            <td className='rec'>Jamón (fiambres)</td>
-            <td className='rec'>1 g</td>
-        </tr>
         <tr>
+         <td className='rec'>Morcilla (salada)</td>
+         <td className='rec'>1 g</td>
+        </tr> 
+      <tr>
+         <td className='rec'>Jamón (fiambres)</td>
+         <td className='rec'>1 g</td>
+        </tr>
+      <tr>
             <td className='rec'>Provoleta y quesos duros</td>
             <td className='rec'>1 g</td>
           </tr>
@@ -173,6 +177,10 @@ const Tablap = () => {
             <td className='recy'>Kiwi</td>
             <td className='recy'>14 g</td>
          </tr>
+         <tr>
+            <td className='recy'>Ciruelas</td>
+            <td className='recy'>15 g</td>
+         </tr>
           <tr>
             <td className='recy'>Avellanas</td>
             <td className='recy'>16 g</td>
@@ -194,7 +202,7 @@ const Tablap = () => {
             <td className='rece'>18 g</td>
          </tr>   
            <tr>
-               <td className='rece'>Uva</td>
+               <td className='rece'>Uvas</td>
                <td className='rece'>18.1 g</td>
             </tr> 
             <tr>
