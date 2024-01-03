@@ -9,15 +9,7 @@ const Tablap = () => {
 
   return (
     <> 
-    <hr></hr>
-    <h4>
-      Tabla (abajo) y galería de imágenes (botones arriba) de gramos de carbohidratos en porciones de alimentos de 100 gramos de peso
-    </h4>
-      <h6>Se clasifican en alimentos con baja (verde) moderada (amarillo) y alta (rojo) carga de carbohidratos. 
-         La cantidad de carbohidratos en 100 gramos de peso puede variar según el tipo de preparación, marca, cocción etc. 
-          Los valores son aproximados.
-   </h6>
- <table>
+<table>
         <thead>
           <tr>
             <th >Alimento 100 g</th>
