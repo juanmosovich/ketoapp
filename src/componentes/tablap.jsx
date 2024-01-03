@@ -98,6 +98,10 @@ const Tablap = () => {
             <td className='rec'>3.6 g</td>
          </tr>  
          <tr>
+            <td className='rec'>Tomate</td>
+            <td className='rec'>3.9 g</td>
+         </tr> 
+         <tr>
             <td className='rec'>Frambuesas</td>
             <td className='rec'>4g</td>
          </tr>
