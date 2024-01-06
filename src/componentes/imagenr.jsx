@@ -50,6 +50,7 @@ import Uva from "../img/uva.jpg"
 import Ciruela from "../img/ciruela.jpg"
 import Cherry from "../img/tomatecherry.jpg"
 import PanDulce from "../img/pandulce.jpg"
+import Papas from "../img/papas.jpg"
 
 
 
@@ -226,6 +227,10 @@ const Imagenr = ({setModalUno}) => {
     <div className='cardr'>
       <img src={PastaMani} alt="porción 100g pasta de maní" /> 
       <h6>Pasta de maní 20g</h6>
+    </div>
+    <div className='cardr'>
+      <img src={Papas} alt="porción 100g pasta de papas" /> 
+      <h6>Papas 20g</h6>
     </div>
    <div className='cardr'>
       <img src={Banana} alt="porción 100g de banana" /> 
