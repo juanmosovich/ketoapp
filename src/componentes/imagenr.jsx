@@ -1,5 +1,11 @@
 import React from 'react'
 
+import Choclo from "../img/choclo.jpg"
+import Arvejas from "../img/arvejas.jpg"
+import Porotos from "../img/porotos.jpg"
+import Aceitunas from "../img/aceitunas.jpg"
+import Garbanzos from "../img/garbanzos.jpg"
+import Acelga from "../img/acelga.jpg"
 import Huevos from "../img/huevos.jpg"
 import Queso from "../img/queso.jpg"
 import Morron from "../img/morron.jpg"
@@ -119,6 +125,10 @@ const Imagenr = ({setModalUno}) => {
       <h6>Lechuga 3g</h6>
     </div>
     <div className='card'>
+      <img src={Acelga} alt="porción 100 gramos de acelga" /> 
+      <h6>Acelga 3g</h6>
+    </div>
+    <div className='card'>
       <img src={Zapallito} alt="porción de 100g de zapallito" /> 
       <h6>Zapallito 3.1g</h6>
     </div>
@@ -153,6 +163,10 @@ const Imagenr = ({setModalUno}) => {
     <div className='card'>
       <img src={Berenjena} alt="porción 100g de berenjenas" /> 
       <h6>Berenjenas 5.7g</h6>
+    </div>
+    <div className='card'>
+      <img src={Aceitunas} alt="porción 100g de aceitunas" /> 
+      <h6>Aceitunas s/carozo 6g</h6>
     </div>
     <div className='card'>
       <img src={Morron} alt="imagen morron" /> 
@@ -215,6 +229,14 @@ const Imagenr = ({setModalUno}) => {
       <h6>Manzana 14g</h6>
     </div>
     <div className='cardy'>
+      <img src={Arvejas} alt="porción 100g de arvejas" /> 
+      <h6>Arvejas 14g</h6>
+    </div>
+    <div className='cardy'>
+      <img src={Garbanzos} alt="porción 100g de garbanzos" /> 
+      <h6>Garbanzos 15g</h6>
+    </div>
+    <div className='cardy'>
       <img src={Ciruela} alt="porción 100g de ciruela" /> 
       <h6>Ciruela 16g</h6>
     </div>
@@ -235,12 +257,20 @@ const Imagenr = ({setModalUno}) => {
       <h6>Pera 18g</h6>
     </div>
     <div className='cardr'>
+      <img src={Choclo} alt="porción 100 gramos de maíz" /> 
+      <h6>Maíz 19g</h6>
+    </div>
+    <div className='cardr'>
       <img src={PastaMani} alt="porción 100g pasta de maní" /> 
       <h6>Pasta de maní 20g</h6>
     </div>
     <div className='cardr'>
       <img src={Papas} alt="porción 100g pasta de papas" /> 
       <h6>Papas 20g</h6>
+    </div>
+    <div className='cardr'>
+      <img src={Porotos} alt="porción 100 gramos de porotos" /> 
+      <h6>Porotos 22g</h6>
     </div>
    <div className='cardr'>
       <img src={Banana} alt="porción 100g de banana" /> 

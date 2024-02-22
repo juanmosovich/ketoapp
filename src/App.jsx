@@ -132,7 +132,10 @@
                           Cómo usar esta App.
                         </h4>
                         <h6>
-                          Con los botones "+ -"  usted podrá ir sumando, a lo largo del día, la cantidad de carbohidratos que 
+                        Consuma libremente los alimentos en verde. Cuidado con los alimentos en amarillo. Evite los alimentos en rojo.
+                        Los alimentos en verde son los mas nutritivos, menos tóxicos y menos adictivos. Los alimentos en rojo son 
+                        los menos nutritivos, más tóxicos y más adictivos. Con los botones "+ -"  usted podrá ir sumando, 
+                        a lo largo del día, la cantidad de carbohidratos que 
                           consume. Puede usar como referencia la tabla o la galería de imágenes de porciones 
                           de 100 gramos de diferentes alimentos que se despliega con los botones de "abrir-cerrar". Los 
                           alimentos se clasifican en baja (verde) moderada (amarillo) y alta (rojo) carga de carbohidratos.
