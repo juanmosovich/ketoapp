@@ -1,17 +1,18 @@
 import React from 'react'
 
+import Mandarina from "../img/mandarina.webp"
 import Choclo from "../img/choclo.webp"
 import Arvejas from "../img/arvejas.webp"
 import Porotos from "../img/porotos.jpg"
 import Aceitunas from "../img/aceitunas.webp"
-import Garbanzos from "../img/garbanzos.jpg"
+import Garbanzos from "../img/garbanzos.webp"
 import Acelga from "../img/acelga.webp"
-import Huevos from "../img/huevos.jpg"
+import Huevos from "../img/huevos.webp"
 import Queso from "../img/queso.jpg"
-import Morron from "../img/morron.jpg"
+import Morron from "../img/morron.webp"
 import Calabaza from "../img/calabaza.webp"
-import Frutillas from "../img/frutillas.jpg"
-import Mani from "../img/mani.jpg"
+import Frutillas from "../img/frutillas.webp"
+import Mani from "../img/mani.webp"
 import Zucchini from "../img/zucchini.jpg"
 import Zapallito from "../img/zapallito.jpg"
 import Pepino from "../img/pepino.jpg"
@@ -19,7 +20,7 @@ import Palta from "../img/palta.jpg"
 import Nueces from "../img/nueces.jpg"
 import Chocolate from "../img/chocol-75.webp"
 import Carne from "../img/carne.webp"
-import Manteca from "../img/manteca.jpg"
+import Manteca from "../img/manteca.webp"
 import Yogurg from "../img/yogur-griego.jpg"
 import Yogurn from "../img/yogur-natural.jpg"
 import Tomate from "../img/tomate.jpg"
@@ -31,34 +32,35 @@ import Crema from "../img/crema.webp"
 import Arroz from "../img/arroz.webp"
 import Azucar from "../img/azucar.webp"
 import Banana from "../img/banana.webp"
-import Durazno from "../img/durazno.jpg"
-import Muffin from "../img/muffin.jpg"
-import Manzana from "../img/manzana.jpg"
+import Durazno from "../img/durazno.webp"
+import Muffin from "../img/muffin.webp"
+import Manzana from "../img/manzana.webp"
 import Zanahoria from "../img/zanahoria.jpg"
 import CerealCchoc from "../img/cereales.webp"
 import ChocNegro from "../img/chocNegro.webp"
 import Pan from "../img/pan.jpg"
-import Fideos from "../img/fideos.jpg"
-import Jamon from "../img/jamon.jpg"
+import Fideos from "../img/fideos.webp"
+import Jamon from "../img/jamon.webp"
 import Provo from "../img/provo.jpg"
-import Muza from "../img/muza.jpg"
+import Muza from "../img/muza.webp"
 import Cremon from "../img/cremon.webp"
 import Pomelo from "../img/pomelo.jpg"
 import Naranja from "../img/naranja.jpg"
 import Pera from "../img/pera.jpg"
 import Cebolla from "../img/cebolla.webp"
-import Melon from "../img/melon.jpg"
+import Melon from "../img/melon.webp"
 import Sandia from "../img/sandia.jpg"
-import Minions from "../img/minions.jpg"
-import Lentejas from "../img/lentejas.jpg"
-import Morcilla from "../img/morcilla.jpg"
+import Minions from "../img/minions.webp"
+import Lentejas from "../img/lentejas.webp"
+import Morcilla from "../img/morcilla.webp"
 import Uva from "../img/uva.jpg"
 import Ciruela from "../img/ciruela.webp"
 import Cherry from "../img/tomatecherry.jpg"
 import PanDulce from "../img/pandulce.jpg"
 import Papas from "../img/papas.jpg"
 import Cerezas from "../img/cerezas.webp"
-import Lechuga from "../img/lechuga.jpg"
+import Lechuga from "../img/lechuga.webp"
+import Hongos from "../img/hongos.webp"
 
 
 
@@ -153,6 +155,10 @@ const Imagenr = ({setModalUno}) => {
       <h6>T. Cherry 3.9g</h6>
     </div>
     <div className='card'>
+      <img src={Hongos} alt="porción 100g de tomate Hongos" /> 
+      <h6>Hongos 4g</h6>
+    </div>
+    <div className='card'>
       <img src={Coliflor} alt="porción 100g de coliflor" /> 
       <h6>Coliflor 4.9g</h6>
     </div>
@@ -215,6 +221,10 @@ const Imagenr = ({setModalUno}) => {
     <div className='cardy'>
       <img src={Naranja} alt="porción 100 gramos de naranja" /> 
       <h6>Naranja 9g</h6>
+    </div>
+    <div className='cardy'>
+      <img src={Mandarina} alt="porción 100g de mandarina" /> 
+      <h6>Mandarina 13g</h6>
     </div>
     <div className='cardy'>
       <img src={Chocolate} alt="porción 100g de chocolate 75%" /> 
