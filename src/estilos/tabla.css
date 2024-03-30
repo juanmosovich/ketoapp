@@ -1,7 +1,13 @@
+
+table {
+   min-width: 80%;
+}
+
 h4 {
     margin-top: 50px;
     margin-bottom: 5 px;
-    
+    padding: 10px;
+           
 }
 
 .rec {
