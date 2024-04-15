@@ -8,8 +8,8 @@ const Reset = ({resetApp, closeModalReset}) => {
     <div className='reset'>
       <h4>Va a eliminar los datos!!!</h4>  
       <div className='okno'>     
-        <button className='eliminardatos' onClick={() => {resetApp()}}>👍OK</button>
-         <button className='eliminardatos' onClick={() => {closeModalReset()}}>👎NO</button>
+      <button className='eliminardatos' onClick={() => {resetApp()}}>👍OK</button>
+       <button className='eliminardatos' onClick={() => {closeModalReset()}}>👎NO</button>
      </div>
     </div>
   )
