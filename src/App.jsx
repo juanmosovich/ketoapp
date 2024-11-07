@@ -5,7 +5,7 @@
                    import Imagenr from './componentes/imagenr';
                    import Reset from './componentes/reset';
                    import ParrafoConVerMas from './componentes/ParrafoConVerMas';
-                  
+                   
                    
                    
                    
@@ -149,6 +149,7 @@
 {modalUno && <Imagenr />}
 
 <Tablap />
+
 
                        </>
                      );

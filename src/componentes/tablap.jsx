@@ -23,9 +23,17 @@ const Tablap = () => {
             <td className='rec'>0 g</td>
       </tr>
       <tr>
-            <td className='rec'>Manteca</td>
+            <td className='rec'>Ghee</td>
             <td className='rec'>0 g</td>
+      </tr>
+      <tr>
+            <td className='rec'>Manteca</td>
+            <td className='rec'>0.5 g</td>
         </tr>
+        <tr>
+            <td className='rec'>Aceite de coco</td>
+            <td className='rec'>0.84 g</td>
+        </tr>    
         <tr>
          <td className='rec'>Morcilla (salada)</td>
          <td className='rec'>1 g</td>
