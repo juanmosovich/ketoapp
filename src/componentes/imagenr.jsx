@@ -62,6 +62,7 @@ import Cerezas from "../img/cerezas.webp"
 import Lechuga from "../img/lechuga.webp"
 import Hongos from "../img/hongos.webp"
 import Kiwi from "../img/kiwi.webp"
+import Anana from "../img/anana.webp"
 
 
 
@@ -226,6 +227,10 @@ const Imagenr = ({setModalUno}) => {
     <div className='cardy'>
       <img src={Mandarina} alt="porción 100g de mandarina" /> 
       <h6>Mandarina 13g</h6>
+    </div>
+    <div className='cardy'>
+      <img src={Anana} alt="porción 100g de piña" /> 
+      <h6>Piña 13g</h6>
     </div>
     <div className='cardy'>
       <img src={Chocolate} alt="porción 100g de chocolate 75%" /> 
