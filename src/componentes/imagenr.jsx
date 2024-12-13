@@ -70,17 +70,11 @@ import Anana from "../img/anana.webp"
 import "../estilos/imagenes.css"
 
 
+const Imagenr = () => {
 
-const Imagenr = ({setModalUno}) => {
-  
-  const ocultarModalUno = () => {
-    setModalUno(false);
-  }
 
 
   return (
-    
-   
 
 <div className='container-img'> 
 

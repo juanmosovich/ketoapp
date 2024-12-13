@@ -1,3 +1,76 @@
+/* Diseño general */
+.container-img {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    justify-items: center;
+    padding: 10px;
+}
+
+/* Tarjetas */
+.card {
+    text-align: center;
+    background-color: rgb(128, 241, 128);
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Colores específicos */
+.card:nth-child(odd) {
+    background-color: rgb(241, 241, 143);
+}
+
+.card:nth-child(even) {
+    background-color: rgb(241, 152, 152);
+}
+
+/* Imágenes */
+.card img {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover img {
+    transform: scale(2.5); /* Maximiza la ampliación */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Sombra más destacada */
+    z-index: 10; /* Destaca la imagen ampliada */
+    position: relative; /* Permite aplicar z-index correctamente */
+}
+
+.card img:active {
+    transform: scale(2.5);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    z-index: 10;
+    position: relative;
+}
+
+
+.card h6 {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Media Queries */
+@media (min-width: 600px) {
+    .card img {
+        max-width: 150px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card img {
+        max-width: 200px;
+    }
+}
+
+
+/*
+
 img {
     width: 120px;
     height: 120px;
