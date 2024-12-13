@@ -1,23 +1,77 @@
-
+/* Tabla general */
 table {
-   min-width: 80%;
-}
-
-h4 {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Encabezados */
+  thead tr {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  /* Colores alternados */
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  /* Hover para filas */
+  tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Estilo para las categorías */
+  .rec {
+    background-color: #b3e6b3; /* Verde suave */
+  }
+  
+  .recy {
+    background-color: #f7f4b2; /* Amarillo pastel */
+  }
+  
+  .rece {
+    background-color: #f6b2b2; /* Rojo suave */
+  }
+  
+  /* H4 encabezados */
+  h4 {
     margin-top: 50px;
-    margin-bottom: 5 px;
+    margin-bottom: 10px;
     padding: 10px;
-           
-}
-
-.rec {
-    background-color: rgb(128, 241, 128); 
-}
-
-.recy {
-   background-color:  rgb(241, 241, 143); 
-}
-
-.rece {
-    background-color: rgb(241, 152, 152);
-}
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    border-bottom: 2px solid #4CAF50;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+  
+    th, td {
+      padding: 8px 10px;
+    }
+  }
+  
